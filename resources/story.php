@@ -442,7 +442,7 @@ $story_en = <<<STORY_EN
                 </p>
                 <p class="video">
                     <video id="noticeMovie" src="videos/notice.mp4" controls></video>
-                    <video id="raidaBrienMovie" src="videos/raidaBrien.mp4" controls></video>
+                    <video id="raidaBrienMovie" src="videos/RaidaBrien.mp4" controls></video>
                 </p>
             </div>
         </div>
@@ -484,14 +484,14 @@ $story_en = <<<STORY_EN
             </div>
         </div>
         <div class="panel panel-default">
-            <div class="panel-heading" role="tab" id="heading13">
+            <div class="panel-heading" role="tab" id="heading14">
                 <h4 class="panel-title">
-                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse13" aria-expanded="false" aria-controls="collapse13">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse14" aria-expanded="false" aria-controls="collapse14">
                         Safety breach
                     </a>
                 </h4>
             </div>
-            <div id="collapse13" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading13">
+            <div id="collapse14" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading14">
                 <div class="panel-body">
                     <p>
                         What all bullies do is chip away at their victim’s sense of security.
@@ -968,7 +968,7 @@ $story_fr = <<<STORY_FR
                 </p>
                 <p class="video">
                     <video id="noticeMovie" src="videos/notice.mp4" controls></video>
-                    <video id="raidaBrienMovie" src="videos/raidaBrien.mp4" controls></video>
+                    <video id="raidaBrienMovie" src="videos/RaidaBrien.mp4" controls></video>
                 </p>
             </div>
         </div>
@@ -1010,14 +1010,14 @@ $story_fr = <<<STORY_FR
             </div>
         </div>
         <div class="panel panel-default">
-            <div class="panel-heading" role="tab" id="heading13">
+            <div class="panel-heading" role="tab" id="heading14">
                 <h4 class="panel-title">
-                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse13" aria-expanded="false" aria-controls="collapse13">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse14" aria-expanded="false" aria-controls="collapse14">
                         Violation de sécurité
                     </a>
                 </h4>
             </div>
-            <div id="collapse13" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading13">
+            <div id="collapse14" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading14">
                 <div class="panel-body">
                     <p>
                         Ce que tout harceleur tente de faire est de gruger, petit à petit, le sentiment de sécurité de sa victime.
