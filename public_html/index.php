@@ -32,7 +32,7 @@
         <script src="script/bootstrap/js/bootstrap.min.js"></script>
     </head>
     <body>
-        <div class="container-fluid">
+        <div class="container">
             <header>
                 <nav class="navbar navbar-default navbar-inverse">
                     <div class="navbar-header">
