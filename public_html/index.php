@@ -2,7 +2,7 @@
     require_once(dirname(__FILE__) . "/../resources/config.php");
 
     function getActiveMenu() {
-        return $_SERVER[REQUEST_URI] != '/' ? strtolower(substr($_SERVER[REQUEST_URI], 1)) : 'home';
+        return $_SERVER['REQUEST_URI'] != '/' ? strtolower(substr($_SERVER['REQUEST_URI'], 1)) : 'home';
     }
 
     function activeClass($menu) {
@@ -36,7 +36,7 @@
             <header>
                 <nav class="navbar navbar-default navbar-inverse">
                     <div class="navbar-header">
-                        <a href="http://<?= r(LANG_HOST) . $_SERVER[REQUEST_URI] ?>" class='navbar-brand'><?= r(LANG_LABEL) ?></a>
+                        <a href="http://<?= r(LANG_HOST) . $_SERVER['REQUEST_URI'] ?>" class='navbar-brand'><?= r(LANG_LABEL) ?></a>
                     </div>
                 </nav>
                 <div class="row">
