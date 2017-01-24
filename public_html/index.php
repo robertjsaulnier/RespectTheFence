@@ -29,7 +29,7 @@
         <link rel="stylesheet" href="css/style.css">
         
         <script src="script/jquery-3.1.1.js"></script>
-        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script src="css/bootstrap/js/bootstrap.min.js"></script>
     </head>
     <body>
         <div class="container-fluid">
