@@ -47,7 +47,7 @@ $body_fr = <<<HOME_FR
 HOME_FR;
     }
     
-    require_once(dirname(__FILE__) . "/../resources/config.php");
+    require_once(dirname(__FILE__) . '/../resources/config.php');
     
     //Title
     const TITLE_HOME = 'TITLE_HOME';
@@ -104,7 +104,7 @@ HOME_FR;
     }
 
     function activeClass($menu) {
-        return getActiveMenu() == $menu . '.php' ? 'active' : '';
+        return getActiveMenu() == $menu ? 'active' : '';
     }
 ?>
 
@@ -128,7 +128,7 @@ HOME_FR;
             <header>
                 <nav class="navbar navbar-default navbar-inverse">
                     <div class="navbar-header">
-                        <a href="http://<?= r(LANG_HOST) . $_SERVER['REQUEST_URI'] ?>" class='navbar-brand'><?= r(LANG_LABEL) ?></a>
+                        <a href="http://<?= r(LANG_HOST) . $_SERVER['REQUEST_URI'] ?>" class="navbar-brand"><?= r(LANG_LABEL) ?></a>
                     </div>
                 </nav>
                 <div class="row">
@@ -139,12 +139,12 @@ HOME_FR;
             </header>
             <nav class="navbar navbar-default menu">
                 <ul class="nav nav-pills nav-justified">
-                    <li role="presentation" class="<?= activeClass('index') ?>"><a href="index.php"><?= r(MENU_HOME) ?></a></li>
-                    <li role="presentation" class="<?= activeClass('story') ?>"><a href="story.php"><?= r(MENU_STORY) ?></a></li>
-                    <li role="presentation" class="<?= activeClass('campaign') ?>"><a href="campaign.php"><?= r(MENU_CAMPAIGN) ?></a></li>
-                    <li role="presentation" class="<?= activeClass('contact') ?>"><a href="contact.php"><?= r(MENU_CONTACT) ?></a></li>
-                    <li role="presentation" class="<?= activeClass('media') ?>"><a href="media.php"><?= r(MENU_MEDIA_LINKS) ?></a></li>
-                    <li role="presentation" class="<?= activeClass('bullying') ?>"><a href="bullying.php"><?= r(MENU_BULLYING_RESOURCES) ?></a></li>
+                    <li role="presentation" class="<?= activeClass('index.php') ?>"><a href="index.php"><?= r(MENU_HOME) ?></a></li>
+                    <li role="presentation" class="<?= activeClass('story.php') ?>"><a href="story.php"><?= r(MENU_STORY) ?></a></li>
+                    <li role="presentation" class="<?= activeClass('campaign.php') ?>"><a href="campaign.php"><?= r(MENU_CAMPAIGN) ?></a></li>
+                    <li role="presentation" class="<?= activeClass('contact.php') ?>"><a href="contact.php"><?= r(MENU_CONTACT) ?></a></li>
+                    <li role="presentation" class="<?= activeClass('media.php') ?>"><a href="media.php"><?= r(MENU_MEDIA_LINKS) ?></a></li>
+                    <li role="presentation" class="<?= activeClass('bullying.php') ?>"><a href="bullying.php"><?= r(MENU_BULLYING_RESOURCES) ?></a></li>
                 </ul>
             </nav>
             <div class="row">
